@@ -1,0 +1,10 @@
+{
+  "realm": "cx",
+  "__auth-server-url": "https://login.dev.cx-apps.io/auth",
+  "_____auth-server-url": "https://login-laos.dev.cx-apps.io/auth",
+  "auth-server-url": "http://localhost:8080/auth",
+  "ssl-required": "external",
+  "resource": "cx-apps",
+  "resource__": "cx-apps-otp",
+  "public-client": true
+}
