@@ -1,1 +1,4 @@
-# cx-universal-signon-local-dev
+# Instructions
+- npm install
+- npm build
+- npm run

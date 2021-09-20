@@ -45,11 +45,11 @@
 
 .logo > img {
   height: 100%;
-  max-height: 34px;
+  max-height: 200px;
 }
 
-.logo.russia > img {
-  height: 24px;
+.logo.hydra > img {
+  height: 200px;
 }
 
 .login-title {
@@ -59,8 +59,8 @@
   padding: 16px 16px 0;
 }
 
-#kc-content.russia .login-title {
-  color: #212833;
+#kc-content.hydra .login-title {
+  color: #002833;
 }
 
 .login-subtitle {
@@ -69,8 +69,8 @@
   padding: 16px 16px 0;
 }
 
-#kc-content.russia .login-subtitle {
-  color: #2f353e;
+#kc-content.hydra .login-subtitle {
+  color: #00353e;
 }
 
 .btn-primary {
@@ -90,12 +90,7 @@
   height: 48px;
 }
 
-#kc-content.laos input.form-control {
-  border: 1px solid #dce0e5;
-  background-color: #ffffff;
-}
-
-#kc-content.russia input.form-control {
+#kc-content.hydra input.form-control {
   border: 1px solid #cfd9e7;
   background-color: #ffffff;
 }
@@ -465,17 +460,12 @@ a.zocial {
   margin-bottom: 0;
 }
 
-#kc-content.laos .btn-primary {
-  background-color: #0ac39b;
+#kc-content.hydra .btn-primary {
+  background-color: #000000;
   color: #ffffff;
 }
 
-#kc-content.russia .btn-primary {
-  background-color: #002f5f;
-  color: #ffffff;
-}
-
-#kc-content.russia .btn-primary:hover {
+#kc-content.hydra .btn-primary:hover {
   background-color: #8ba0b9;
 }
 
@@ -593,12 +583,8 @@ label.control-label {
   transition: all 0.2s ease;
 }
 
-#kc-content.laos .remember-me-container .checkmark {
-  border: 1px solid #0ac39b;
-}
-
-#kc-content.russia .remember-me-container .checkmark {
-  border: 1px solid #002f5f;
+#kc-content.hydra .remember-me-container .checkmark {
+  border: 1px solid #000000;
 }
 
 .remember-me-container label {
@@ -608,11 +594,7 @@ label.control-label {
   cursor: pointer;
 }
 
-#kc-content.laos .remember-me-container label {
-  color: #1c2025;
-}
-
-#kc-content.russia .remember-me-container label {
+#kc-content.hydra .remember-me-container label {
   color: #2f353e;
 }
 
@@ -627,12 +609,8 @@ label.control-label {
   transition: all 0.2s ease;
 }
 
-#kc-content.laos .checkmark:after {
-  background: #0ac39b;
-}
-
-#kc-content.russia .checkmark:after {
-  background: #002f5f;
+#kc-content.hydra .checkmark:after {
+  background: #000000;
 }
 
 .remember-me-container input:checked ~ .checkmark:after {
@@ -783,7 +761,7 @@ label.control-label {
   }
 
   .logo {
-    height: 58px;
+    height: 200px;
     align-items: flex-start;
     justify-content: center;
     width: 100%;
@@ -794,8 +772,8 @@ label.control-label {
     max-height: 100%;
   }
 
-  .logo.russia > img {
-    height: 32px;
+  .logo.hydra > img {
+    height: 200px;
   }
 
   #kc-header-wrapper {

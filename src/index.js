@@ -7,8 +7,7 @@ import {routerMiddleware} from "react-router-redux";
 import thunk from "redux-thunk";
 import createHistory from 'history/createBrowserHistory';
 import rootReducer from "./modules";
-import BookBox from "./components/BookBox";
-import BookDetails from "./components/BookDetails";
+import Box from "./components/Box";
 import Keycloak from "keycloak-js";
 import axios from "axios";
 
@@ -27,8 +26,7 @@ const app = (
     <Router history={history}>
       <div className="container">
         <Switch>
-          <Route exact path="/" component={BookBox}/>
-          <Route path="/books/:bookId" component={BookDetails}/>
+          <Route exact path="/" component={Box}/>
         </Switch>
       </div>
     </Router>
@@ -38,7 +36,7 @@ const app = (
 const kc = new Keycloak('/keycloak.json');
 let kcLogin = kc.login;
 kc.login = (options) => {
-  options.idpHint = 'mmcx-azure';
+  options.idpHint = 'x-cx-azure';
   kcLogin(options);
 };
 kc.init({onLoad: "login-required", promiseType: 'native'})

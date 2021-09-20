@@ -1,0 +1,6 @@
+build
+.settings
+.project
+node_modules
+keycloak.json
+public/themes/development

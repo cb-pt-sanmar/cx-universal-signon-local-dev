@@ -1,0 +1,12 @@
+{
+  "realm": "cx",
+  "auth-server-url": "https://login-local.dev.cx-apps.io/auth",
+  "ssl-required": "external",
+  
+  "resource_OPTION_1-USER_AND_PASSWORD": "cx-apps",
+  "resource_OPTION_2-OTP": "cx-apps-otp",
+  
+  "resource": "cx-apps",
+  
+  "public-client": true
+}
