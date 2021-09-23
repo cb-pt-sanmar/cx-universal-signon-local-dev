@@ -1,4 +1,4 @@
 # Instructions
-- npm install
-- npm build
-- npm run
+- npm run install
+- npm run build
+- npm run start
